@@ -26,7 +26,7 @@ A Streamlit demo that generates synthetic butterfly images using a pretrained Li
 
 ## Overview
 
-This project deploys a **Lightweight GAN** model as an interactive web application using **Streamlit** on **Hugging Face Spaces**. Users can generate photorealistic butterfly images at 512x512 resolution with a single click, exploring how generative models learn visual patterns from a curated dataset of only ~1,000 images.
+This project deploys a **Lightweight GAN** model as an interactive web application using **Streamlit** on **Hugging Face Spaces**. Users can generate photorealistic butterfly images at 512x512 resolution with a single click, exploring how generative models learn visual patterns from a curated dataset of 1,000 images.
 
 ---
 
