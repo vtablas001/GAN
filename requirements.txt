@@ -1,0 +1,8 @@
+git+https://github.com/huggingface/community-events.git@3fea10c5d5a50c69f509e34cd580fe9139905d04#egg=huggan
+streamlit
+torch
+pysentimiento
+huggan
+huggingface-hub==0.19.4
+accelerate==0.25.0
+transformers==4.36.2
