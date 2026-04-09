@@ -176,7 +176,6 @@ with torch.no_grad():
 ## Author
 
 **Victor Tablas**
-- Hugging Face: [@vtablas001](https://huggingface.co/vtablas001)
 
 ---
 
