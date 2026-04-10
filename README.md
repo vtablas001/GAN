@@ -158,7 +158,7 @@ with torch.no_grad():
 
 - **[PyTorch](https://pytorch.org/)**: Deep learning framework for model inference.
 - **[Streamlit](https://streamlit.io/)**: Web application framework for ML demos.
-- **[Hugging Face Hub](https://huggingface.co/)**: Model hosting and Spaces deployment.
+- **[Hugging Face Hub](https://huggingface.co/)**: Spaces deployment.
 - **[huggan](https://github.com/huggingface/community-events)**: Community library providing the Lightweight GAN implementation.
 
 ---
