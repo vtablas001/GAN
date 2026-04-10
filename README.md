@@ -56,9 +56,9 @@ This demo uses the pretrained model [`ceyda/butterfly_cropped_uniq1K_512`](https
 | Detail              | Description                                                |
 |---------------------|------------------------------------------------------------|
 | **Architecture**    | Lightweight GAN (Liu & Abbeel, 2021)                       |
-| **Dataset**         | ~1,000 unique butterfly species from the Smithsonian Collection |
+| **Dataset**         | 1,000 unique butterfly species from the Smithsonian Collection |
 | **Resolution**      | 512 x 512 pixels                                           |
-| **Training**        | 2x NVIDIA A4000 GPUs, ~24 hours                           |
+| **Training**        | 2x NVIDIA A4000 GPUs, 24 hours                           |
 | **Key Parameters**  | Batch size 64, gradient accumulation every 4 steps, FP16 mixed precision |
 | **Purpose**         | Educational and experimental use                           |
 
@@ -90,7 +90,7 @@ The application presents a simple interface where users can:
 git clone https://github.com/<your-username>/butterfly-gan-generator.git
 cd butterfly-gan-generator
 
-# Create a virtual environment (recommended)
+# Create a virtual environment
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 
