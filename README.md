@@ -1,6 +1,6 @@
 # Butterfly GAN Generator
 
-A Streamlit demo that generates synthetic butterfly images using a pretrained Lightweight GAN. Each click produces a unique butterfly that does not exist in nature, showcasing the power of generative adversarial networks trained on limited data.
+I built this Streamlit demo that generates synthetic butterfly images using a pretrained Lightweight GAN. Each click produces a unique butterfly that does not exist in nature, showcasing the power of generative adversarial networks trained on limited data.
 
 [![Hugging Face Space](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Space-blue)](https://huggingface.co/spaces/vtablas001/GAN1)
 [![Streamlit](https://img.shields.io/badge/Streamlit-App-FF4B4B?logo=streamlit&logoColor=white)](https://huggingface.co/spaces/vtablas001/GAN1)
@@ -58,7 +58,6 @@ This demo uses the pretrained model [`ceyda/butterfly_cropped_uniq1K_512`](https
 | **Architecture**    | Lightweight GAN (Liu & Abbeel, 2021)                       |
 | **Dataset**         | 1,000 unique butterfly species from the Smithsonian Collection |
 | **Resolution**      | 512 x 512 pixels                                           |
-| **Training**        | 2x NVIDIA A4000 GPUs, 24 hours                           |
 | **Key Parameters**  | Batch size 64, gradient accumulation every 4 steps, FP16 mixed precision |
 | **Purpose**         | Educational and experimental use                           |
 
